@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="popup.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="popup.js" type="module"></script>
+    <title>Hitbullseye Automation</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        min-width: 300px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-100 ex-navbar">
+    <nav class="bg-blue-500 p-4 flex justify-center">
+      <img src="../images/icon48.png" alt="icon" class="ex-icon w-8 h-8 mr-2" />
+      <span class="text-white font-bold text-lg">Hitbullseye Automation</span>
+    </nav>
+    <main class="container mx-auto p-4">
+      <div class="input_group mb-4">
+        <label
+          class="ex-label block text-gray-700 text-sm font-bold mb-2"
+          for="test_answer_key"
+          >Test Answer Key</label
+        >
+        <input
+          class="border rounded py-2 px-3 w-full focus:outline-none focus:border-blue-500"
+          type="text"
+          id="test_answer_key"
+          placeholder="Enter answer key"
+          value=""
+        />
+      </div>
+      <div class="mb-4 input_group">
+        <label
+          class="ex-label block text-gray-700 text-sm font-bold mb-2"
+          for="time"
+          >Time</label
+        >
+        <input
+          class="w-full"
+          type="range"
+          id="time"
+          min="0.5"
+          max="10"
+          value="1.5"
+          step="0.5"
+        />
+        <span id="time_value" class="text-gray-600 text-sm">0</span>
+      </div>
+      <div class="btn-group flex justify-between">
+        <button
+          class="ex-button bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none"
+          id="start"
+        >
+          Start
+        </button>
+        <button
+          class="ex-button bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none"
+          id="stop"
+        >
+          Stop
+        </button>
+      </div>
+    </main>
+    <footer class="bg-gray-200 p-4 text-center">
+      <!-- <span class="text-gray-600 text-sm">&copy; 2023</span> -->
+      <span class="text-gray-600 text-sm"
+        >Designed and Developed by ZORODU</span
+      >
+    </footer>
+  </body>
+</html>
