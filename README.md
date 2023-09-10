@@ -1,8 +1,6 @@
 # Hitbullseye Automate Tool
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouza.maurodesouza&"  />
-</div>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Mani-Ravirala&label=Profile%20views&color=0e75b6&style=flat" alt="Mani-Ravirala" /> </p>
 
 ---
 
