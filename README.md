@@ -1,5 +1,11 @@
 # Hitbullseye Automate Tool
 
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouza.maurodesouza&"  />
+</div>
+
+---
+
 <p align="center">
   <img src="./images/target_610064.png" alt="Tool Logo" width="100px">
 </p>
